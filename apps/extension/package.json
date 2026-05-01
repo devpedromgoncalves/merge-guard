@@ -1,0 +1,35 @@
+{
+  "name": "@merge-guard/extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome Extension (MV3) for AI-powered GitLab MR reviews with React + Tailwind",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --max-warnings 0",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.25",
+    "@repo/eslint-config": "*",
+    "@types/chrome": "^0.0.270",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "~5.4.2",
+    "vite": "^5.4.0"
+  }
+}
